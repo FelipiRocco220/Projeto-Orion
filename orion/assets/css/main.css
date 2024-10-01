@@ -1,0 +1,134 @@
+:root{
+    color-scheme: dark;
+}
+@media (prefers-color-scheme: dark){
+    button, select{
+        background-color: #2b2b2b;
+    }
+}
+
+input, button, select, textarea{
+    border: none;
+    outline: none;
+    padding: 5px 10px;
+    border-radius: 2px;
+}
+button, select{
+    cursor: pointer;
+}
+
+.flex{
+    display: flex;
+    gap: 5px;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+table{
+    border-radius: 10px;
+    overflow: hidden;
+}
+table tr:first-of-type td{
+    text-align: center;
+    background-color: #202020;
+}
+tr, td{
+    padding: 5px 20px;
+}
+td{
+    background-color: #2b2b2b;
+}
+td img{
+    width: auto;
+    height: 100px;
+}
+
+.stars{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.star{
+    background: #00000080;
+    width: 10px;
+    height: 10px;
+}
+
+.bi-star-half, .bi-star-fill{
+    color: #ffae00;
+}
+#favBtn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.fav{
+    background-color: #ffae00;
+    color: white;
+}
+.fav .bi-star-fill{
+    color: white;
+}
+
+ul{
+    list-style: none;
+    padding: 0;
+}
+
+form > *{
+    margin-bottom: 5px;
+}
+
+.pfp-big{
+    width: 100%;
+    max-width: 256px;
+    max-height: 256px;
+    aspect-ratio: 1 / 1;
+    border-radius: 100vmax;
+
+    position: relative;
+    overflow: hidden;
+
+    background-size: cover;
+}
+#miniPfp{
+    width: 150px;
+    height: 150px;
+    border-radius: 100vmax;
+}
+
+.popup{
+    width: 200px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    background-color: #202020;
+
+    position: absolute;
+    right: 5px;
+}
+.popup.danger{
+    background-color: rgb(160, 0, 0);
+}
+.popup.sucess{
+    background-color: rgb(0, 145, 67);
+}
+.popup.warning{
+    background-color: rgb(212, 159, 0);
+}
+
+.unfinished{
+    color: gray;
+}
+
+.form > *{
+    margin-bottom: 5px;
+}
+.form > *:last-child{
+    margin-bottom: 0;
+}

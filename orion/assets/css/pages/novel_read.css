@@ -1,0 +1,27 @@
+img{
+    width: 200px;
+    height: auto;
+}
+.novel{
+    width: fit-content;
+    min-width: 500px;
+    padding: 10px;
+    background-color: #202020;
+    gap: 15px;
+    border-radius: 3px;
+    margin-bottom: 5px;
+}
+
+li{
+    background-color: #2b2b2b;
+    padding: 10px 20px;
+    margin-bottom: 2px;
+}
+
+a{
+    text-decoration: none;
+}
+
+#private{ color: red; }
+#public{ color: green; }
+#unlistid{ color: purple; }

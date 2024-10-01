@@ -1,0 +1,33 @@
+.read_container{
+    width: 800px;
+    padding: 10px;
+}
+.read_container{
+    position: relative;
+}
+.read_container.light{
+    background-color: white;
+    color: black;
+}
+.read_container.dark{
+    background-color: #202020;
+    color: white;
+}
+
+#modeBtn{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+    aspect-ratio: 1 / 1;
+
+    font-size: 25px;
+}
+.dark #modeBtn{
+    background-color: #2b2b2b;
+    color: white;
+}
+.light #modeBtn{
+    background-color: #ebebeb;
+    color: black;
+}

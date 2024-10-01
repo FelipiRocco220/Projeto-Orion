@@ -1,0 +1,1 @@
+O arquivo de banco de dados está aqui temporariamente para facilitar o desenvolvimento.

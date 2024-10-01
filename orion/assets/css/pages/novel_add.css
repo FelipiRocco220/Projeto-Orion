@@ -1,0 +1,29 @@
+.actions textarea{
+    width: 200px;
+    min-height: 63%;
+}
+#novel_thumb{
+    width: 100%;
+    max-width: 300px;
+    padding: 0;
+    aspect-ratio: 1 / 1.18;
+    background-color: #3b3b3b;
+    border-radius: 10px;
+    overflow: hidden;
+}
+#novel_thumb > img{
+    width: 100%;
+    aspect-ratio: 1 / 1.18;
+    object-fit: cover;
+    object-position: center;
+}
+
+.tag{
+    width: fit-content;
+    background-color: #3b3b3b;
+    margin: 2px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    float: left;
+}
